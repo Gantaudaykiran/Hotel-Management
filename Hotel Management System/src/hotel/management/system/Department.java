@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package hotel.management.system;
 
 import java.awt.BorderLayout;
@@ -26,9 +22,7 @@ public class Department extends JFrame {
 	private JLabel lblNewLabel;
 	private JLabel lblNewLabel_1;
 
-	/**
-	 * Launch the application.
-	 */
+	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -46,10 +40,7 @@ public class Department extends JFrame {
 		this.dispose();
 	}
 
-	/**
-	 * Create the frame.
-	 * @throws SQLException 
-	 */
+	
 	public Department() throws SQLException {
 		//conn = Javaconnect.getDBConnection();
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
